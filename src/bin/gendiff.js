@@ -8,6 +8,7 @@ program
     .description(description)
     .arguments('<firstConfig>')
     .arguments('<secondConfig>')
+    .option('-f, --format [type]','Output format')
     .parse(process.argv);
 
 if (!program.args.length) program.help();
