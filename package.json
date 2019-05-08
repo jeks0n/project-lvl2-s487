@@ -1,7 +1,7 @@
 {
-  "name": "difference-generator",
+  "name": "gendiff-jekson",
   "version": "1.0.0",
-  "description": "Hexlet training course \"Difference-generator\"",
+  "description": "Compares two configuration files and shows a difference.",
   "bin": {
     "gendiff": "dist/bin/gendiff.js"
   },
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jeks0n/project-lvl2-s439.git"
+    "url": "git+https://github.com/jeks0n/project-lvl2-s475.git"
   },
   "keywords": [
     "Hexlet",
@@ -35,7 +35,10 @@
     "eslint-plugin-import": "^2.16.0"
   },
   "bugs": {
-    "url": "https://github.com/jeks0n/project-lvl2-s439/issues"
+    "url": "https://github.com/jeks0n/project-lvl2-s475/issues"
   },
-  "homepage": "https://github.com/jeks0n/project-lvl2-s439#readme"
+  "homepage": "https://github.com/jeks0n/project-lvl2-s475#readme",
+  "dependencies": {
+    "commander": "^2.19.0"
+  }
 }
