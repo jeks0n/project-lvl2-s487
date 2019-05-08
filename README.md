@@ -12,7 +12,7 @@ This is an educational repository for Hexlet.io trainig course.
 $ make install
 ```
 
-## Run brain game
+## Get help
 
 ```sh
 $ gendiff -h
