@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jeks0n/project-lvl2-s475.git"
+    "url": "git+https://github.com/jeks0n/project-lvl2-s487.git"
   },
   "keywords": [
     "Hexlet",
@@ -35,9 +35,9 @@
     "eslint-plugin-import": "^2.16.0"
   },
   "bugs": {
-    "url": "https://github.com/jeks0n/project-lvl2-s475/issues"
+    "url": "https://github.com/jeks0n/project-lvl2-s487/issues"
   },
-  "homepage": "https://github.com/jeks0n/project-lvl2-s475#readme",
+  "homepage": "https://github.com/jeks0n/project-lvl2-s487#readme",
   "dependencies": {
     "commander": "^2.19.0"
   }
