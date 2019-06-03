@@ -4,8 +4,6 @@ import program from 'commander';
 import { version, description } from '../../package.json';
 import genDiff from '..';
 
-//console.log(genDiff());
-
 program
   .version(version)
   .description(description)
@@ -13,9 +11,7 @@ program
   .arguments('<secondConfig>')
   .option('-f, --format [type]', 'Output format')
   .parse(process.argv)
-  .action(function (json1, json2) {
-      console.log(genDiff(json1, json2));
-  })
+  .action((json1, json2) => console.log(genDiff(json1, json2)))
   .parse(process.argv);
 
 if (!program.args.length) program.help();
