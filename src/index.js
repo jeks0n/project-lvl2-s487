@@ -1,15 +1,9 @@
-import { readFileSync } from 'fs';
 import _ from 'lodash';
+import convertJSONToObject from './parsers';
 
 const before = 'before';
 const after = 'after';
 const status = 'status';
-
-const convertJSONToObject = (path) => {
-  const rawdata = readFileSync(path);
-  const file = JSON.parse(rawdata);
-  return file;
-};
 
 const buildAst = (path1, path2) => {
   const object1 = convertJSONToObject(path1);
